@@ -156,11 +156,11 @@ public class Database : MonoBehaviour
         Book = PlayerPrefs.GetFloat("Book");
         if (TurtleAttack == 0)
         {
-            Initzlize();
+            Initialization();
             Load();
         }
     }
-    public void Initzlize()
+    public void Initialization()
     {
         PlayerPrefs.SetFloat("Turtle", 1);
         PlayerPrefs.SetFloat("WhiteDeer", 0);
