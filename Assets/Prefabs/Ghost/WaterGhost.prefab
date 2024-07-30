@@ -160,7 +160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -206,7 +206,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -4.5, y: -5.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -217,7 +217,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19, y: 19}
+  m_Size: {x: 10, y: 6.33}
   m_EdgeRadius: 0
 --- !u!114 &6059027613560476478
 MonoBehaviour:
@@ -231,10 +231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bcad8520c8cad74d9bc7b6c53621aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 20
+  hp: 15
   speed: 0.4
   ghostcome1: 0
   ghostcome2: 0
-  ghostcome3: 0
-  ghostcome4: 1
+  ghostcome3: 1
+  ghostcome4: 0
   ghostcome5: 0

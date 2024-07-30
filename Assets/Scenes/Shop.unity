@@ -6733,7 +6733,7 @@ MonoBehaviour:
   TurtleUpdate: 0
   WhiteDeerUpdate: 0
   BrownDeerUpdate: 0
-  BambooGhostUpdate: 0
+  BambooGhostUpdate: 1
   WaterMelonGhostUpdate: 0
   SharkUpdate: 0
   FurnaceUpdate: 0

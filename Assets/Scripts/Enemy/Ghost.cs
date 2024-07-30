@@ -5,6 +5,7 @@ public class Ghost : MonoBehaviour
 {
     public float hp = 10;
     public float speed = 0.25f;
+    float initialspeed;
 
     public bool ghostcome1;
     public bool ghostcome2;
@@ -13,7 +14,7 @@ public class Ghost : MonoBehaviour
     public bool ghostcome5;
     void Start()
     {
-        
+        initialspeed = speed;
     }
     void Update()
     {
@@ -75,6 +76,10 @@ public class Ghost : MonoBehaviour
         {
             transform.position += new Vector3(GameObject.Find("Database").GetComponent<Database>().BrownDeerRepulse, 0, 0);
         }
+        if (collision.tag == "Lose")
+        {
+            Invoke("Disapper", 1);
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -97,15 +102,19 @@ public class Ghost : MonoBehaviour
     {
         if (collision.tag == "Monster" || collision.tag == "Shark")
         {
-            speed = 0.25f;
+            speed = initialspeed;
         }
     }
     void BambooGhostAttack()
     {
-        speed = 0.25f;
+        speed = initialspeed;
     }
     void SharkAttack()
     {
         hp -= 100;
+    }
+    void Disapper()
+    {
+        Destroy(gameObject);
     }
 }

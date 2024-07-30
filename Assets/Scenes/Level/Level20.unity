@@ -3999,7 +3999,6 @@ MonoBehaviour:
   PutMonsterCoolTime: 0
   Level: 0
   Coin: 0
-  Shop: 0
   Book: 0
 --- !u!4 &510121907
 Transform:
@@ -8064,7 +8063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4258438826048238088, guid: f6ce5325cbbb95947aa7e5b26a19a2f6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4258438826048238089, guid: f6ce5325cbbb95947aa7e5b26a19a2f6, type: 3}
       propertyPath: m_Sprite
@@ -13320,6 +13319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1f7a920b9bf93a4085104bf323b0b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Levelnum: 0
   power: 100
   powernum: {fileID: 960420761}
   WinOrLosetext: {fileID: 2028901474}
@@ -13359,13 +13359,13 @@ MonoBehaviour:
   BambooGhostCoolTime: {fileID: 1315373429}
   BrownDeerCoolTime: {fileID: 968413996}
   SharkCoolTime: {fileID: 1281451903}
-  TurtleCC2: {fileID: 349758554}
-  WhiteDeerCC2: {fileID: 386967263}
-  WaterMelonGhostCC2: {fileID: 1164512509}
-  BambooGhostCC2: {fileID: 1124881658}
-  BrownDeerCC2: {fileID: 1020887883}
-  SharkCC2: {fileID: 61600457}
-  ReturnCC2: {fileID: 803015670}
+  TurtleBC2: {fileID: 0}
+  WhiteDeerBC2: {fileID: 0}
+  WaterMelonGhostBC2: {fileID: 0}
+  BambooGhostBC2: {fileID: 0}
+  BrownDeerBC2: {fileID: 0}
+  SharkBC2: {fileID: 0}
+  ReturnBC2: {fileID: 0}
   GhostPoint1: {fileID: 638684421}
   GhostPoint2: {fileID: 1980549204}
   GhostPoint3: {fileID: 214314055}

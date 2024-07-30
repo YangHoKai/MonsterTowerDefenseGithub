@@ -52,6 +52,14 @@ public class Boss2 : MonoBehaviour
                 hp -= 50;
             }
         }
+        if (collision.tag == "Lose")
+        {
+            Invoke("Disapper", 1);
+        }
 
+    }
+    void Disapper()
+    {
+        Destroy(gameObject);
     }
 }

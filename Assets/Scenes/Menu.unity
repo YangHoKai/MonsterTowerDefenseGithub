@@ -523,6 +523,8 @@ MonoBehaviour:
   OK: 0
   Cancel: 1
   CleanBoard: {fileID: 385287413}
+  StartButton: {fileID: 518650282}
+  ShopButton: {fileID: 1403538080}
 --- !u!70 &150792768
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -698,7 +700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345413387}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.65, y: -2.13, z: 0}
+  m_LocalPosition: {x: -2.6499996, y: -2.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -721,6 +723,8 @@ MonoBehaviour:
   OK: 1
   Cancel: 0
   CleanBoard: {fileID: 385287413}
+  StartButton: {fileID: 518650282}
+  ShopButton: {fileID: 1403538080}
 --- !u!70 &345413391
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1603,7 +1607,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a688c4aaf0f812f44a0df87be80e8673, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1646,6 +1650,8 @@ MonoBehaviour:
   OK: 0
   Cancel: 0
   CleanBoard: {fileID: 385287413}
+  StartButton: {fileID: 518650282}
+  ShopButton: {fileID: 1403538080}
 --- !u!1 &1897765736
 GameObject:
   m_ObjectHideFlags: 0

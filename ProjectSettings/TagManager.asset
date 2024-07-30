@@ -13,6 +13,7 @@ TagManager:
   - Shark
   - Boss
   - Boss2
+  - Lose
   layers:
   - Default
   - TransparentFX

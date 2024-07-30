@@ -389,7 +389,10 @@ public class GameController : MonoBehaviour
         GetCoin.SetActive(true);
         GetCointext.SetActive(true);
         GameObject.Find("Database").GetComponent<Database>().Coin += 500;
-        GameObject.Find("Database").GetComponent<Database>().Level += 1;
+        if (Levelnum == GameObject.Find("Database").GetComponent<Database>().Level)
+        {
+            GameObject.Find("Database").GetComponent<Database>().Level += 1;
+        }
         GameObject.Find("Database").GetComponent<Database>().Save();
     }
     public void Lose()
