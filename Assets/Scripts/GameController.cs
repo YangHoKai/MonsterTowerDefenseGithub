@@ -384,7 +384,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            GameObject.Find("Database").GetComponent<Database>().Level = 0;
+            GameObject.Find("Database").GetComponent<Database>().Level = 20;
         }
         GetCoin.SetActive(true);
         GetCointext.SetActive(true);
